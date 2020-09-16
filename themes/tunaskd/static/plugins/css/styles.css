@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Quicksand';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../font/Quicksand/static/Quicksand-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand-SemiBold';
+  src: url('../font/Quicksand/static/Quicksand-SemiBold.ttf')format('truetype');
+}
+
+html{
+  height: 100%;
+}
+*{
+  outline: none;
+  font-family: 'Quicksand';
+}
+.navbar nav{
+  height: 70px;
+}
+nav ul{
+  position: relative;
+}
+nav ul li{
+  font-size: 14pt;
+  font-weight: bold;
+}
+nav .nav-link:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#logo{
+  background-color: #292b2c;
+  color: yellow;
+  font-size: 15pt;
+  font-weight: bold;
+  margin-left: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.jumbotron h1{
+  font-family: 'Quicksand-SemiBold';
+}
+footer {
+  background-color: #292b2c;
+}
+footer .text-white{
+  font-family: 14pt;
+}
+footer .text-white:hover{
+  font-weight: bold;
+}

@@ -1,0 +1,49 @@
+baseURL = "https://tunaskode-7gra.onrender.com/"
+languageCode = "en-us"
+title = "tunaskode.com"
+theme = "tunaskd"
+
+# Main Menu
+[[params.menu]]
+name = "Home"
+link = "http://tunaskode.pythonanywhere.com/"
+[[params.menu]]
+name = "Tutorial"
+link = "http://tunaskode.pythonanywhere.com/tutorial/"
+[[params.menu]]
+name = "Blog"
+link = "http://tunaskode.pythonanywhere.com/blog/"
+
+
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/css/styles.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/bootstrap/jquery.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/popper.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+
+# Profile
+[[params.profile]]
+images = "images/human.png"
+
+# Media Sosial
+[[params.social]]
+images = "images/email.png"
+link = "mailto: sintya.ajeng@outlook.com"
+[[params.social]]
+images = "images/github.png"
+link = "https://github.com/Sintya12/"
+[[params.social]]
+images = "images/linkedin.png"
+link = "https://www.linkedin.com/in/sintya-lestari-5313461b7/"
+[[params.social]]
+images = "images/instagram.png"
+link = "https://www.instagram.com/sintttya_/"

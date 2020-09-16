@@ -1,0 +1,4 @@
+{{ "<!-- plugins -->" | safeHTML }}
+{{ range .Site.Params.plugins.js }}
+  <script type="text/javascript" src="{{ .link | absURL }}"></script>
+{{ end }}

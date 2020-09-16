@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+    <!-- Start Header -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">{{ .Title }}</h1>
+        <p class="lead"> Memuat dasar bahasa pemogramman html, css, javascript, python.</p>
+
+        <ul style="list-style-type: none;margin-top: 35px;">
+          {{ range .Site.Params.social }}
+            <li>
+              <a href="{{ .link | safeURL }}">
+                <img class="img-fluid rounded float-left mr-4" src="{{ .images }}" alt="Responsive Image" width="40px">
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+    <!-- End Header -->
+
+
+{{ end }}
