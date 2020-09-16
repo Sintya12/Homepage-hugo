@@ -1,4 +1,5 @@
 baseURL = "https://www.tunaskode.com/"
+baseURL = "https://tunaskode-ee6d.onrender.com/"
 languageCode = "en-us"
 title = "tunaskode.com"
 theme = "tunaskd"
