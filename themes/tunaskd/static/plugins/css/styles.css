@@ -38,6 +38,10 @@ nav .nav-link:hover{
   padding-right: 20px;
   padding-left: 20px;
 }
+.jumbotron {
+  background: none;
+  background-color: none;
+}
 .jumbotron h1{
   font-family: 'Quicksand-SemiBold';
 }
