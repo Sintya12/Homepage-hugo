@@ -1,0 +1,3 @@
+[submodule "themes/tkode"]
+	path = themes/tkode
+	url = https://github.com/Sintya12/Homepage-hugo.git
