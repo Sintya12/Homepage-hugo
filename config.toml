@@ -6,13 +6,13 @@ theme = "tunaskd"
 # Main Menu
 [[params.menu]]
 name = "Home"
-link = "http://tunaskode.pythonanywhere.com/"
+link = "https://tunaskode.pythonanywhere.com/"
 [[params.menu]]
 name = "Tutorial"
-link = "http://tunaskode.pythonanywhere.com/tutorial/"
+link = "https://tunaskode.pythonanywhere.com/tutorial/"
 [[params.menu]]
 name = "Blog"
-link = "http://tunaskode.pythonanywhere.com/blog/"
+link = "https://tunaskode.pythonanywhere.com/blog/"
 
 
 
